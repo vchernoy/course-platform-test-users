@@ -1,0 +1,21 @@
+# FAKE students for testing course-platform's multi-repo loading. Public repo: example.com addresses only.
+# Offerings live in https://github.com/vchernoy/course-platform-test-content.
+students:
+  # QA account (signs in with a password kept outside the repos).
+  - email: claude-test+clerk_test1@example.com
+    offerings:
+      - test-course-2027-01
+      - test-webinar-2027-02
+
+  - email: vchernoy@gmail.com
+    offerings:
+      - test-course-2027-01
+      - test-webinar-2027-02
+
+  - email: student-a@example.com
+    offerings:
+      - test-course-2027-01
+
+  - email: student-b@example.com
+    offerings:
+      - test-webinar-2027-02
