@@ -7,6 +7,11 @@ students:
       - test-course-2027-01
       - test-webinar-2027-02
 
+  - email: vchernoy@gmail.com
+    offerings:
+      - test-course-2027-01
+      - test-webinar-2027-02
+
   - email: student-a@example.com
     offerings:
       - test-course-2027-01
